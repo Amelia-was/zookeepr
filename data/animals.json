@@ -126,6 +126,35 @@
         "hungry"
       ],
       "id": "12"
+    },
+    {
+      "name": "Johnny",
+      "species": "Ibex",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "zany",
+        "loving"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "Dopey",
+      "species": "Sloth",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "anxious",
+        "loving"
+      ],
+      "id": "14"
+    },
+    {
+      "name": "Amy",
+      "species": "Cheetah",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "15"
     }
   ]
 }
