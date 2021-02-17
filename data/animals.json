@@ -155,6 +155,15 @@
         "hungry"
       ],
       "id": "15"
+    },
+    {
+      "name": "Eleanor",
+      "species": "Jumbo Shrimp",
+      "diet": "piscivore",
+      "personalityTraits": [
+        "anxious"
+      ],
+      "id": "16"
     }
   ]
 }
