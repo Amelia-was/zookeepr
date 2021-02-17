@@ -7,8 +7,12 @@ const path = require('path');
 
 // parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
+
 // parse incoming JSON data
 app.use(express.json());
+
+// get static files (ie link assets to HTML)
+app.use(express.static('public'));
 
 const { animals } = require('./data/animals');
 
@@ -119,6 +123,11 @@ app.get('/api/animals/:id', (req, res) => {
     } else {
         res.send(404);
     }
+});
+
+// '/' root route for the server
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
 app.listen(PORT, () => {
